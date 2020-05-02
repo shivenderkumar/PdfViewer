@@ -8,7 +8,7 @@ Smaple Andriod App Project with sample backend Api's to demonstrate how to downl
 server.js contains two api's :
  -> getAllList 'response array of files names in pdfFiles Folder'
  -> getFileByName 'take filename as reuest and return that pdf file as response'
-* NOTE : pdf files are stored as static resource files in folder(server->assets->pdfFiles) just to demonstrate, you can give file url path from mongodb.
+* NOTE : pdf files are stored as static resource files in folder(server->assets->pdfFiles) just to demonstrate, you can give file url path from mongodb, which is in the future scope of project.
 
  ### Frontend Android App 
  
