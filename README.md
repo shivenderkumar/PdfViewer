@@ -8,7 +8,7 @@ Smaple Andriod App Project with sample backend Api's to demonstrate how to downl
 server.js contains two api's :
  -> getAllList 'response array of files names in pdfFiles Folder'
  -> getFileByName 'take filename as reuest and return that pdf file as response'
-* NOTE : pdf files are stored as static resource files in folder(server->assets->pdfFiles) just to demonstrate, you can give file url path from mongodb, which is in the future scope of project.
+* **NOTE** : pdf files are stored as static resource files in folder(server->assets->pdfFiles) just to demonstrate, you can give file url path from mongodb, which is in the future scope of project.
 
  ### Frontend Android App 
  
@@ -26,6 +26,7 @@ server.js contains two api's :
 ```
  * App Structure:
      -> MainActivity    : Display file names in ListView by calling 'getAllList' api with SearchView. On itemclick of listview                           PdfViewActivity is called.
+     
      -> PdfViewActivity : get the filename from MainActivity and call 'getFileByName' api.
                           Store response,which is in byte[], in FileOutputStream and create pdf file of in ( ).
                           PdfView from external library is used to open pdf from path.
@@ -33,85 +34,65 @@ server.js contains two api's :
  ###
 
 ## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Smaple Andriod App Project with sample backend Api's to demonstrate how to downlad pdf file form nodejs server and open it on android app.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Vistual Studio Code
+Android Studio 3.0
+
 
 ```
-Give examples
+node version v8.10.0
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+For Backend, Goto Directory PdfViewerBackend
 
 ```
-Give the example
+cd PdfViewerBackend
+npm install
+npm start
 ```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+For Frontend PdfViewerApp, open in Android Studio, and run the app.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+In Development
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
+In Development
 
 ### And coding style tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
+In Development
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+In Development
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Visual Studio Code]
+* [Android Studio]
+* [Postman]
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+In Development
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Version 1.0 - First Version
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Shivender Kumar** - 
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
