@@ -12,12 +12,19 @@ server.js contains two api's :
  
  ### Frontend Android App 
  
- Language : JAVA
- Minimum SDK Level : api 21
- External Depedencies : 
-     -> Volley for handilng api calls
-     -> bertsc for open pdf in app
- Contains two activity :
+ * Language : JAVA
+ * Minimum SDK Level : api 21
+ * External Depedencies : 
+ ```
+ implementation 'com.android.volley:volley:1.1.1'
+ implementation 'com.github.barteksc:android-pdf-viewer:3.0.0-beta.5'
+ ```
+ * Permissions :
+ ```
+ <uses-permission android:name="android.permission.INTERNET" />
+ <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+```
+ * App Structure:
      -> MainActivity    : Display file names in ListView by calling 'getAllList' api with SearchView. On itemclick of listview                           PdfViewActivity is called.
      -> PdfViewActivity : get the filename from MainActivity and call 'getFileByName' api.
                           Store response,which is in byte[], in FileOutputStream and create pdf file of in ( ).
