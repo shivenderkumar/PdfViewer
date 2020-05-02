@@ -4,12 +4,12 @@ Smaple Andriod App Project with sample backend Api's to demonstrate how to downl
 
 ### Backend Server
 
-Language : nodejs
-pdf files are stored as static resource files in folder(server->assets->pdfFiles)'.
+* Language : nodejs
 server.js contains two api's :
  -> getAllList 'response array of files names in pdfFiles Folder'
  -> getFileByName 'take filename as reuest and return that pdf file as response'
- 
+* NOTE : pdf files are stored as static resource files in folder(server->assets->pdfFiles) just to demonstrate, you can give file url path from mongodb.
+
  ### Frontend Android App 
  
  * Language : JAVA
