@@ -4,6 +4,7 @@ Smaple Andriod App Project with sample backend Api's to demonstrate how to downl
 
 ### Backend Server
 
+* used expressjs for backend
 * Language : nodejs
 server.js contains two api's :
  -> getAllList 'response array of files names in pdfFiles Folder'
@@ -39,7 +40,7 @@ Smaple Andriod App Project with sample backend Api's to demonstrate how to downl
 ### Prerequisites
 
 Vistual Studio Code
-Android Studio 3.0
+Android Studio 3.6.3
 
 
 ```
