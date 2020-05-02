@@ -32,6 +32,10 @@ server.js contains two api's :
      -> PdfViewActivity : get the filename from MainActivity and call 'getFileByName' api.
                           Store response,which is in byte[], in FileOutputStream and create pdf file of in ( ).
                           PdfView from external library is used to open pdf from path.
+                          
+     -> SingletonRequestQueue Class : to use only one requestQueue object in multiple activities
+     
+     -> InputStreamVolleyRequest Class
  
  ###
 
@@ -41,6 +45,7 @@ Smaple Andriod App Project with sample backend Api's to demonstrate how to downl
 ### Prerequisites
 
 Vistual Studio Code
+
 Android Studio 3.6.3
 
 
