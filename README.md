@@ -26,6 +26,7 @@ server.js contains two api's :
  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 ```
  * App Structure:
+ 
      -> MainActivity    : Display file names in ListView by calling 'getAllList' api with SearchView. On itemclick of listview                           PdfViewActivity is called.
      
      -> PdfViewActivity : get the filename from MainActivity and call 'getFileByName' api.
