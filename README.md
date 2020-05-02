@@ -83,9 +83,9 @@ In Development
 
 ## Built With
 
-* [Visual Studio Code]
-* [Android Studio]
-* [Postman]
+* [Android Studio] - JAVA
+* [Visual Studio Code] - nodejs
+* [Postman] - test api's
 
 ## Contributing
 
