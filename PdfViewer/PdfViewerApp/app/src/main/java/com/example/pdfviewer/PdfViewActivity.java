@@ -19,7 +19,7 @@ import java.io.FileOutputStream;
 
 public class PdfViewActivity extends AppCompatActivity {
     String fileToopen="";
-    String fileUrl = "http://192.168.0.107:5000/getFileByName?fname=";   //change IP
+    String fileUrl = "http://localhost:5000/getFileByName?fname=";   //change IP (server ip)
     PDFView pdfView;
     String filePath ="/data/user/0/com.example.pdfviewer/files/";       //Path where pdf will be created by FileOutstream
 
